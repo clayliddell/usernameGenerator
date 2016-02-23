@@ -34,5 +34,4 @@ class generate {
 		echo "\r\nUsage:\r\n	generate::username() -> Generates random username consisting of a random adjective, noun, and number between 01 and 99.\r\n	generate::adjective() -> Generates a random adjective from a file containing 1000 different adjectives.\r\n	generate::noun() -> Generates a random noun from a file containing 2328 different nouns.";
 	}
 }
-generate::help();
 ?>
