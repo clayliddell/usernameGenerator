@@ -7,8 +7,8 @@ class generate {
 	private static $nouns;
 
 	private static function getFiles() {
-		self::$adjectives = file("dictionaries/adjectives.txt");
-		self::$nouns = file("dictionaries/nouns.txt");
+		self::$adjectives = file(__PROJECTROOT__ . "dictionaries/adjectives.txt");
+		self::$nouns = file(__PROJECTROOT__ . "dictionaries/nouns.txt");
 	}
 
 	public static function username() {
